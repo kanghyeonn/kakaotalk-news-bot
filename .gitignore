@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+kakao/
+.env
+
+# Test and notebook artifacts
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+test/
+
+# Legacy code
+app/legacy/
+
+# Logs and runtime outputs
+logs/
+xml/
+
+# Local history/config artifacts
+rooms.json
+rooms-*.json
+sent_history*.json
+
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
